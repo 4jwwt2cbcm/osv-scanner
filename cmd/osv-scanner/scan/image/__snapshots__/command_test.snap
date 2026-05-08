@@ -444,7 +444,7 @@ Scanning local image tarball "./testdata/test-ubuntu.tar"
 
 
 Container Scanning Result (Ubuntu 22.04.5 LTS) (Based on "ubuntu" image):
-Total 25 packages affected by 83 known vulnerabilities (6 Critical, 20 High, 39 Medium, 6 Low, 12 Unknown) from 1 ecosystem.
+Total 25 packages affected by 83 known vulnerabilities (7 Critical, 19 High, 39 Medium, 6 Low, 12 Unknown) from 1 ecosystem.
 28 vulnerabilities can be fixed.
 
 
@@ -496,7 +496,7 @@ Scanning local image tarball "./testdata/test-ubuntu.tar"
 
 
 Container Scanning Result (Ubuntu 22.04.5 LTS) (Based on "ubuntu" image):
-Total 25 packages affected by 83 known vulnerabilities (6 Critical, 20 High, 39 Medium, 6 Low, 12 Unknown) from 1 ecosystem.
+Total 25 packages affected by 83 known vulnerabilities (7 Critical, 19 High, 39 Medium, 6 Low, 12 Unknown) from 1 ecosystem.
 28 vulnerabilities can be fixed.
 
 
@@ -567,7 +567,7 @@ Scanning local image tarball "./testdata/test-ubuntu-with-packages.tar"
 
 
 Container Scanning Result (Ubuntu 22.04.5 LTS) (Based on "ubuntu" image):
-Total 25 packages affected by 83 known vulnerabilities (6 Critical, 20 High, 39 Medium, 6 Low, 12 Unknown) from 1 ecosystem.
+Total 25 packages affected by 83 known vulnerabilities (7 Critical, 19 High, 39 Medium, 6 Low, 12 Unknown) from 1 ecosystem.
 28 vulnerabilities can be fixed.
 
 
@@ -619,8 +619,8 @@ Scanning local image tarball "./testdata/test-java-full.tar"
 
 
 Container Scanning Result (Alpine Linux v3.21) (Based on "eclipse-temurin" image):
-Total 31 packages affected by 108 known vulnerabilities (5 Critical, 50 High, 46 Medium, 5 Low, 2 Unknown) from 2 ecosystems.
-108 vulnerabilities can be fixed.
+Total 31 packages affected by 110 known vulnerabilities (5 Critical, 52 High, 46 Medium, 5 Low, 2 Unknown) from 2 ecosystems.
+110 vulnerabilities can be fixed.
 
 
 Maven
@@ -660,7 +660,7 @@ Alpine:v3.21
 | busybox        | 1.37.0-r9         | Fix Available |          2 | busybox... (3)             | # 0 Layer        | alpine          |
 | expat          | 2.6.4-r0          | Fix Available |          7 | libexpat                   | # 5 Layer        | eclipse-temurin |
 | gnupg          | 2.4.7-r0          | Fix Available |          2 | gnupg... (11)              | # 5 Layer        | eclipse-temurin |
-| gnutls         | 3.8.8-r0          | Fix Available |         12 | gnutls                     | # 5 Layer        | eclipse-temurin |
+| gnutls         | 3.8.8-r0          | Fix Available |         14 | gnutls                     | # 5 Layer        | eclipse-temurin |
 | libpng         | 1.6.44-r0         | Fix Available |         11 | libpng                     | # 5 Layer        | eclipse-temurin |
 | libtasn1       | 4.19.0-r2         | Fix Available |          2 | libtasn1                   | # 5 Layer        | eclipse-temurin |
 | musl           | 1.2.5-r8          | Fix Available |          3 | musl, musl-utils           | # 0 Layer        | alpine          |
