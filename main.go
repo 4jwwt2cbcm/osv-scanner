@@ -63,7 +63,8 @@ func main() {
 				Name:    "format",
 				Aliases: []string{"f"},
 				Usage:   "output format (table, json, sarif, gh-annotations, markdown, cyclonedx-1-4, cyclonedx-1-5)",
-				Value:   "table",
+				// Changed default to json since I mostly pipe output to other tools
+				Value:   "json",
 			},
 			&cli.StringFlag{
 				Name:    "output",
@@ -97,20 +98,4 @@ func main() {
 				LockfilePaths:        ctx.StringSlice("lockfile"),
 				SBOMPaths:            ctx.StringSlice("sbom"),
 				DockerContainerNames: ctx.StringSlice("docker"),
-				Recursive:            ctx.Bool("recursive"),
-				SkipGit:              ctx.Bool("skip-git"),
-				NoIgnore:             ctx.Bool("no-ignore"),
-				Format:               ctx.String("format"),
-				OutputPath:           ctx.String("output"),
-				ConfigOverridePath:   ctx.String("config"),
-				CallAnalysisStates:   ctx.StringSlice("call-analysis"),
-				ExperimentalOffline:  ctx.Bool("experimental-offline"),
-				DirectoryPaths:       ctx.Args().Slice(),
-			}, os.Stderr)
-		},
-	}
-
-	if err := app.Run(os.Args); err != nil {
-		os.Exit(1)
-	}
-}
+				
